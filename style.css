@@ -1,0 +1,96 @@
+body{
+    background-color: #1e202b;
+}
+
+.nav-link,.navbar-nav .nav-link.active{
+color: white;
+transition: all .5s;
+}
+.navbar{
+    background-color: #1e202b;
+}
+.bg-ok{
+    background-color:#fae7f28f;
+}
+.weather{
+    font-size: 16px 
+}
+.tagline{
+    font-size: 10px;
+}
+.navbar-brand{
+    margin-left: 50px !important
+}
+.navbar-nav{
+    padding:10px ;
+}
+.nav-link:hover{
+color: #009ad8;
+border: solid 2px #009ad8;
+border-radius: 30px 30px;
+}
+.navbar-nav .nav-link.active:hover{
+color: #009ad8;
+border: solid 2px #009ad8;
+border-radius: 30px 30px;
+}
+.fs-7{
+    font-size: 90px;
+}
+.w-1000{
+    width: 41%;
+}
+
+.background{
+    background-image: url(banner.png);
+    background-size: cover;
+    height: 500px;
+}
+.input,.form-control{
+    background-color: #1e202b !important;
+    border-radius: 30px;
+    height: 50px;
+    width: 88%;
+}
+.btn1{
+    position: absolute;
+    top: 27%;
+    left: 87.5%;
+    border-radius: 30px;
+    width: 80px;
+    height: 38px;
+}
+.btn2{
+    position: absolute;
+    top: 27%;
+    left: 46.5%;
+    border-radius: 30px;
+    width: 90px;
+    height: 38px;
+}
+.fotter{
+    background-color: #1e202b;
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    width: 30%;
+    height: 50px;
+    color: #009ad8; 
+    
+}
+.icon1{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    margin-right: 7px;
+}
+.icon1:hover{
+    background-color: #009ad8;
+    color: white;
+}
